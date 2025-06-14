@@ -147,7 +147,15 @@
           </drivers>
         </datasources>
      </subsystem>
-     
+
+          <!-- CONTENIDO PARA CONECTAR CON EL SECOND-SERVER IP INTERNA-->
+
+        <interface name="management">
+            <inet-address value="10.128.0.2"/>
+        </interface>
+        <interface name="public">
+            <inet-address value="10.128.0.2"/>
+        </interface>
      
      
 
